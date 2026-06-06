@@ -175,13 +175,13 @@ Finding: high remittance years did not consistently prevent depreciation but the
 
 **Dashboard 1: PKR Depreciation Story (2000-2025)**
 
-![Dashboard 1](PKR_Depreciation_Story__2000-2025_.png)
+![Dashboard 1](PKR_Depreciation_Story.png)
 
 Covers the full 25-year arc. Shows when inflation followed rupee crashes and when it did not.
 
 **Dashboard 2: Episode Deep Dive and Macro Drivers**
 
-![Dashboard 2](Episode_Deep_Dive___Macro_Drivers.png)
+![Dashboard 2](Episode_Deep_Dive_and_Macro_Drivers.png)
 
 Zooms into the crisis episodes. Compares average depreciation, inflation, and policy rate. Includes the reserves scatter and decade deterioration chart.
 
