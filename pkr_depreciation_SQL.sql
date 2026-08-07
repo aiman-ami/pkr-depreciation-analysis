@@ -46,7 +46,7 @@ SELECT
     RANK() OVER (ORDER BY pass_through_coefficient DESC) AS pass_through_rank
 FROM economic_indicators
 WHERE pass_through_coefficient IS NOT NULL
-  AND yoy_depreciation_pct > 0
+  AND yoy_depreciation_pct > 2
 ORDER BY pass_through_coefficient DESC;
 
 # Forex reserves vs PKR did reserves protect the rupee?
