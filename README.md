@@ -104,14 +104,27 @@ Ranked episodes by total depreciation across the full crisis period.
 
 **Q3. In which years did depreciation hurt consumers most?**
 
-Ranked by pass-through coefficient. Years where a small rupee fall caused outsized inflation.
+This question has two answers, depending on whether inflation was driven by currency movement or by domestic factors.
 
-Top 3 worst years for consumers:
-- **2011** : only 0.35% depreciation but 13.7% inflation (coefficient: 38.9)
-- **2014** : only 0.30% depreciation but 8.6% inflation (coefficient: 29.1)
-- **2025** : only 0.54% depreciation but 7.2% inflation (coefficient: 13.4)
+**Years where inflation spiked despite a stable rupee** these show supply shocks and energy prices play an independent role:
 
-These years show that inflation in Pakistan is not always caused by currency. Supply shocks and energy prices play an independent role.
+| Year | Depreciation | Inflation | Likely Driver |
+|---|---|---|---|
+| **2011** | 0.35% | 13.7% | Debt restructuring + energy costs |
+| **2014** | 0.30% | 8.6% | Domestic supply pressures |
+| **2025** | 0.54% | 7.2% | Post-stabilization price stickiness |
+
+**Years with the highest pass-through from depreciation to inflation** filtering for years with >2% depreciation to avoid mathematical outliers:
+
+| Rank | Year | Depreciation | Inflation | Pass-Through Coefficient |
+|---|---|---|---|---|
+| 1 | **2008** | 2.79% | 12.0% | **4.30** |
+| 2 | **2005** | 3.30% | 9.3% | **2.82** |
+| 3 | **2024** | 8.79% | 23.4% | **2.66** |
+| 4 | **2010** | 8.54% | 11.7% | 1.37 |
+| 5 | **2020** | 7.33% | 8.9% | 1.21 |
+
+> **Note:** The pass-through coefficient divides inflation by depreciation. When depreciation is near zero (e.g., 2011, 2014), the ratio becomes economically meaningless, so those years are better interpreted as "high inflation despite currency stability" rather than extreme pass-through. The 2008 Global Financial Crisis tops the filtered list a modest rupee fall coincided with a major inflation spike as global commodity prices surged.
 
 ![Q3 Result](pkr_Q3.png)
 
@@ -155,7 +168,7 @@ Pakistan goes to the IMF because things are already bad. The causality runs back
 | 2010s | 104.11 | 7.11% | 7.45% | 3.99% | 66.00% |
 | 2020s | 223.88 | 11.43% | 14.97% | 2.78% | 74.00% |
 
-Every single indicator got worse every decade. Currency weaker, inflation higher, growth slower, debt heavier.
+Most macro indicators deteriorated over time, with the 2020s showing the sharpest decline. Currency weakened, growth slowed, and debt rose every decade. However, the 2010s saw two notable exceptions: average inflation was lower than the 2000s (7.45% vs. 8.30%) and forex reserves were stronger ($17.75B vs. $10.27B), before both reversed in the 2020s.
 
 ![Q6 Result](pkr_Q6.png)
 
@@ -189,11 +202,11 @@ Zooms into the crisis episodes. Compares average depreciation, inflation, and po
 
 ## Key Findings
 
-1. **The rupee lost 440% of its value** from 2000 to 2025 (51.8 to 280).
+1. **The dollar strengthened 440% against the rupee from 2000 to 2025**, meaning the rupee lost over 80% of its purchasing power.
 2. **2019 was the single worst depreciation year** at 35.62% in one year.
 3. **2023 was the worst inflation year** at 29.2%, driven by the PKR crash plus energy price hikes.
 4. **Pass-through is not automatic.** Several years had high inflation with almost no depreciation, meaning domestic supply and energy policy matter independently.
-5. **Every decade got measurably worse** across all five macro indicators simultaneously.
+5. **Most macro indicators deteriorated over time**, with the 2020s showing the sharpest decline. The 2010s saw two notable exceptions: lower average inflation (7.45%) and higher forex reserves ($17.75B) compared to the 2000s.
 6. **IMF years correlate with worse outcomes** but that reflects crisis entry conditions, not program failure.
 
 ---
