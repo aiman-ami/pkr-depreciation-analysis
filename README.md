@@ -1,7 +1,7 @@
 # PKR vs USD: How Rupee Crashes Became Inflation (2000-2025)
 
 **Tools:** Python · MySQL · Power BI  
-**Data:** 26 years · 32 indicators · 3 crisis episodes  
+**Data:** 26 years · 32 indicators · 2 crisis episodes  
 **Skills shown:** Data cleaning · Feature engineering · SQL window functions · Dashboard design
 
 ---
@@ -106,7 +106,7 @@ Ranked episodes by total depreciation across the full crisis period.
 
 This question has two answers, depending on whether inflation was driven by currency movement or by domestic factors.
 
-**Years where inflation spiked despite a stable rupee** these show supply shocks and energy prices play an independent role:
+**Years where inflation spiked despite a stable rupee:** these show supply shocks and energy prices play an independent role:
 
 | Year | Depreciation | Inflation | Likely Driver |
 |---|---|---|---|
@@ -114,7 +114,7 @@ This question has two answers, depending on whether inflation was driven by curr
 | **2014** | 0.30% | 8.6% | Domestic supply pressures |
 | **2025** | 0.54% | 7.2% | Post-stabilization price stickiness |
 
-**Years with the highest pass-through from depreciation to inflation** filtering for years with >2% depreciation to avoid mathematical outliers:
+**Years with the highest pass-through from depreciation to inflation:** filtering for years with >2% depreciation to avoid mathematical outliers:
 
 | Rank | Year | Depreciation | Inflation | Pass-Through Coefficient |
 |---|---|---|---|---|
@@ -124,7 +124,7 @@ This question has two answers, depending on whether inflation was driven by curr
 | 4 | **2010** | 8.54% | 11.7% | 1.37 |
 | 5 | **2020** | 7.33% | 8.9% | 1.21 |
 
-> **Note:** The pass-through coefficient divides inflation by depreciation. When depreciation is near zero (e.g., 2011, 2014), the ratio becomes economically meaningless, so those years are better interpreted as "high inflation despite currency stability" rather than extreme pass-through. The 2008 Global Financial Crisis tops the filtered list a modest rupee fall coincided with a major inflation spike as global commodity prices surged.
+> **Note:** The pass-through coefficient divides inflation by depreciation. When depreciation is near zero (e.g., 2011, 2014), the ratio becomes economically meaningless, so those years are better interpreted as "high inflation despite currency stability" rather than extreme pass-through. The 2008 Global Financial Crisis tops the filtered list: a modest rupee fall coincided with a major inflation spike as global commodity prices surged.
 
 ![Q3 Result](pkr_Q3.png)
 
