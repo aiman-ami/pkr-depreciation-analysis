@@ -89,17 +89,16 @@ Full timeline from PKR 51.8 in 2000 to PKR 280 in 2025.
 
 **Q2. Which depreciation episode caused the most damage?**
 
-Ranked episodes by total depreciation across the full crisis period.
+Ranked episodes by total depreciation across the full crisis period, measured from the year before each episode began to its final year.
 
-| Episode | PKR Start | PKR End | Total Fall |
+| Episode | PKR Baseline (year before) | PKR End | Total Fall |
 |---|---|---|---|
-| Episode_2018_TwinDeficits | 110.6 | 150.0 | **35.62%** |
-| Episode_2022_PKRCrash | 204.9 | 256.0 | **24.94%** |
+| Episode_2022_PKRCrash | 162.9 (2021) | 256.0 | **57.15%** |
+| Episode_2018_TwinDeficits | 105.5 (2017) | 150.0 | **42.18%** |
 
-> Note: The bar chart in the dashboard ranks by average annual depreciation, which is a different measure. Both views are valid and tell different stories.
+Episode_2022_PKRCrash caused the most total damage, consistent with its higher average annual depreciation (25.36% vs 20.23%), higher average inflation (20.7% vs 5.9%), and lower average forex reserves (11.2B vs 18.75B) during the episode. This also lines up with the Q6 finding that the 2020s was the decade with the sharpest overall deterioration.
 
 ![Q2 Result](pkr_Q2.png)
-
 ---
 
 **Q3. In which years did depreciation hurt consumers most?**
