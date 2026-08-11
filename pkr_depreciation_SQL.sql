@@ -14,8 +14,10 @@ ORDER BY year;
 
 # Episode comparison which crisis was worst?
 # Q2. which depreciation episode caused the most damage?
-# Note: ranked by total % depreciation over full episode duration.
-# Dashboard bar chart shows avg annual depreciation, which tells a different story.
+# Note: ranked by total % depreciation across the full episode, using the
+# PKR value from the year before the episode started as the baseline, so
+# each episode's own first-year move is included in its total.
+
 
 SELECT 
     episode,
